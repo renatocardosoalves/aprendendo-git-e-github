@@ -1,0 +1,44 @@
+body {
+  align-items: center;
+  background-color: #ebfffa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0px;
+  width: 100vw;
+}
+
+.numero-principal {
+  font-size: 8rem;
+  margin: 20px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.botao {
+  border: none;
+  border-radius: 50px;
+  color: #e9fff9;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 100px;
+  padding: 20px;
+  width: 250px;
+}
+
+.incremento {
+  background-color: #d64045;
+}
+
+.decremento {
+  background-color: #1d3354;
+}
+
+.reset {
+  background-color: #9ed8db;
+}
